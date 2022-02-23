@@ -47,7 +47,9 @@ margin-top: 10px;
 }
 
 
-
+.focused{
+    width: 500px;
+}
 /* mission section  */
 .box{
     display: flex;
