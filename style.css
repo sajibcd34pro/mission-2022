@@ -1,3 +1,4 @@
+/* fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
@@ -9,6 +10,7 @@
     margin: 0;
     padding: 0;
 }
+/* first section  */
 .first-section{
     display: flex;
     justify-content: space-evenly;
@@ -44,6 +46,9 @@ margin-top: 10px;
     font-weight: normal;
 }
 
+
+
+/* mission section  */
 .box{
     display: flex;
     justify-content:center;
@@ -84,6 +89,9 @@ margin-top: 10px;
     color: #FFAD5A;
 }
 
+
+/* develop section */
+
 .develop-image img{
     width: 450px;
     
@@ -107,7 +115,6 @@ padding: 10px;
 border: none;
 font-weight: normal;
 }
-
 .developer-text p{
     font-weight: normal;
     margin-top: 10px;
@@ -122,10 +129,11 @@ font-weight: normal;
     justify-content: center;
     background-image: url('/images/shapes/shape-1.png');
     background-repeat: no-repeat;
-    background-position: bottom 70% left 13%;
+    background-position: bottom 70% left 6%;
     background-size: 300px;
     
 }
+              /* project */
 
 .project {
     margin-top: 5%;
@@ -133,14 +141,51 @@ font-weight: normal;
     align-items: center;
     justify-content: center;
     
- }
- .project p{
-     margin-top: 10px;
- }
+}
+.project p{
+    margin-top: 10px;
+}
 
- .project button{
-     margin-top:10px;
- }
+.project button{
+    margin-top:10px;
+}
+  
+
+         /* bonus part */
+.bonus{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.bonus-image, .bonus-text{
+    width: 500px;
+}
+.bonus-image img{
+    width: 100px;
+    padding: 20px;
+}
+.bonus-text{
+    font-style: normal;
+     padding: 20px;
+}
+.bonus-text p{
+    margin-top: 10px;
+}
+.bonus-text button{
+color: #FFFFFF;
+background: rgb(255,89,89);
+border-radius: 5px;
+padding: 10px;
+border: none;
+font-weight: normal;
+margin-top: 10px;
+}
+
+
+/* footer */
 
 footer{
     margin-top: 5%;
