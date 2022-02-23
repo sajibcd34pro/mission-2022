@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400&family=Yeseva+One&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.first-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.focused-pic img{
+    width:500px;
+}
+
+.focused h1{
+ font-size: 48px;
+ font-weight: 900;
+ font-style: normal;
+ line-height: 70px;
+ font-family: 'Yeseva One';
+}
+.focused span{
+    color :#FFAD5A;
+}
+
+.focused button{
+ padding:10px 20px;
+ color: #FFFFFF;
+background: rgb(255,89,89);
+border-radius: 5px;
+border: none;
+margin-top: 10px;
+}
+.scroll{
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.box{
+    display: flex;
+    justify-content:center;
+    
+}
+
+.mission, .goals, .vission{
+    width: 400px;
+    margin: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.mission img, .vission img, .goals img  {
+ width: 200px;    
+}
+.mission{
+    background: rgb(237,245,246);
+    border-radius:10px;
+}
+.vission{
+    background: rgb(255,238,238);
+    border-radius:10px;
+}
+.goals{
+    background: rgb(255,244,214);
+    border-radius:10px;
+}
+.content{
+    margin: 5%;
+}
+
+.mission-heading{
+ font-size: 48px;
+ font-weight: 900;
+ line-height: 70px;
+}
+.mission-heading span{
+    color: #FFAD5A;
+}
+
+.develop-image img{
+    width: 450px;
+    
+}
+.developer-text{
+    width: 600px;
+    margin: 5%;
+}
+.developer-text h1{
+    color: #333333;
+    font-size: 36px;
+    font-weight: 900;
+   
+}
+
+.developer-text button{
+color: #FFFFFF;
+background: rgb(255,89,89);
+border-radius: 5px;
+padding: 10px;
+border: none;
+font-weight: normal;
+}
+
+.developer-text p{
+    font-weight: normal;
+    margin-top: 10px;
+}
+.developer-text button{
+    margin-top: 10px;
+}
+.develop{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/images/shapes/shape-1.png');
+    background-repeat: no-repeat;
+    background-position: bottom 70% left 13%;
+    background-size: 300px;
+    
+}
+
+.project {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ .project p{
+     margin-top: 10px;
+ }
+
+ .project button{
+     margin-top:10px;
+ }
+
+footer{
+    margin-top: 5%;
+    background: #0B0D17;
+    text-align: center;
+    
+}
+footer h1{
+    font-family: 'Lobster';
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 30px;
+}
+
+footer p{
+    color:#D9DBE1;
+    font-weight: normal;
+}
+
+footer span {
+    font-family: 'Lobster';
+    color:#FF5959;
+    font-style: normal;
+}
